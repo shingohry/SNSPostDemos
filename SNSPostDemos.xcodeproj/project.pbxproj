@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9AFA8C11CC73C1D00218A57 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9AFA8C01CC73C1D00218A57 /* main.m */; };
+		C9AFA8C41CC73C1D00218A57 /* SPDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9AFA8C31CC73C1D00218A57 /* SPDAppDelegate.m */; };
+		C9AFA8CD1CC73C1D00218A57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9AFA8CB1CC73C1D00218A57 /* Main.storyboard */; };
+		C9AFA8CF1CC73C1D00218A57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9AFA8CE1CC73C1D00218A57 /* Assets.xcassets */; };
+		C9AFA8D21CC73C1D00218A57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9AFA8D01CC73C1D00218A57 /* LaunchScreen.storyboard */; };
+		C9AFA8DB1CC7702F00218A57 /* SPDRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9AFA8DA1CC7702F00218A57 /* SPDRootViewController.m */; };
+		C9AFA8DE1CC7825E00218A57 /* SPDTwitterClient.m in Sources */ = {isa = PBXBuildFile; fileRef = C9AFA8DD1CC7825E00218A57 /* SPDTwitterClient.m */; };
+		C9AFA8E11CC7829300218A57 /* SPDFacebookClient.m in Sources */ = {isa = PBXBuildFile; fileRef = C9AFA8E01CC7829300218A57 /* SPDFacebookClient.m */; };
+		C9AFA8E41CC8C5D600218A57 /* SPDPostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9AFA8E31CC8C5D600218A57 /* SPDPostViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C9AFA8BC1CC73C1D00218A57 /* SNSPostDemos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SNSPostDemos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9AFA8C01CC73C1D00218A57 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C9AFA8C21CC73C1D00218A57 /* SPDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPDAppDelegate.h; sourceTree = "<group>"; };
+		C9AFA8C31CC73C1D00218A57 /* SPDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPDAppDelegate.m; sourceTree = "<group>"; };
+		C9AFA8CC1CC73C1D00218A57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C9AFA8CE1CC73C1D00218A57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C9AFA8D11CC73C1D00218A57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C9AFA8D31CC73C1D00218A57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9AFA8D91CC7702F00218A57 /* SPDRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPDRootViewController.h; sourceTree = "<group>"; };
+		C9AFA8DA1CC7702F00218A57 /* SPDRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPDRootViewController.m; sourceTree = "<group>"; };
+		C9AFA8DC1CC7825E00218A57 /* SPDTwitterClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPDTwitterClient.h; sourceTree = "<group>"; };
+		C9AFA8DD1CC7825E00218A57 /* SPDTwitterClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPDTwitterClient.m; sourceTree = "<group>"; };
+		C9AFA8DF1CC7829300218A57 /* SPDFacebookClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPDFacebookClient.h; sourceTree = "<group>"; };
+		C9AFA8E01CC7829300218A57 /* SPDFacebookClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPDFacebookClient.m; sourceTree = "<group>"; };
+		C9AFA8E21CC8C5D600218A57 /* SPDPostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPDPostViewController.h; sourceTree = "<group>"; };
+		C9AFA8E31CC8C5D600218A57 /* SPDPostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPDPostViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9AFA8B91CC73C1D00218A57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C999E5761CE179D2002BBDA5 /* SNSClient */ = {
+			isa = PBXGroup;
+			children = (
+				C9AFA8DC1CC7825E00218A57 /* SPDTwitterClient.h */,
+				C9AFA8DD1CC7825E00218A57 /* SPDTwitterClient.m */,
+				C9AFA8DF1CC7829300218A57 /* SPDFacebookClient.h */,
+				C9AFA8E01CC7829300218A57 /* SPDFacebookClient.m */,
+			);
+			name = SNSClient;
+			sourceTree = "<group>";
+		};
+		C999E5771CE179E2002BBDA5 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C9AFA8D91CC7702F00218A57 /* SPDRootViewController.h */,
+				C9AFA8DA1CC7702F00218A57 /* SPDRootViewController.m */,
+				C9AFA8E21CC8C5D600218A57 /* SPDPostViewController.h */,
+				C9AFA8E31CC8C5D600218A57 /* SPDPostViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		C9AFA8B31CC73C1D00218A57 = {
+			isa = PBXGroup;
+			children = (
+				C9AFA8BE1CC73C1D00218A57 /* SNSPostDemos */,
+				C9AFA8BD1CC73C1D00218A57 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9AFA8BD1CC73C1D00218A57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9AFA8BC1CC73C1D00218A57 /* SNSPostDemos.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9AFA8BE1CC73C1D00218A57 /* SNSPostDemos */ = {
+			isa = PBXGroup;
+			children = (
+				C9AFA8CB1CC73C1D00218A57 /* Main.storyboard */,
+				C9AFA8C21CC73C1D00218A57 /* SPDAppDelegate.h */,
+				C9AFA8C31CC73C1D00218A57 /* SPDAppDelegate.m */,
+				C999E5771CE179E2002BBDA5 /* ViewController */,
+				C999E5761CE179D2002BBDA5 /* SNSClient */,
+				C9AFA8BF1CC73C1D00218A57 /* Supporting Files */,
+			);
+			path = SNSPostDemos;
+			sourceTree = "<group>";
+		};
+		C9AFA8BF1CC73C1D00218A57 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9AFA8CE1CC73C1D00218A57 /* Assets.xcassets */,
+				C9AFA8D01CC73C1D00218A57 /* LaunchScreen.storyboard */,
+				C9AFA8D31CC73C1D00218A57 /* Info.plist */,
+				C9AFA8C01CC73C1D00218A57 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9AFA8BB1CC73C1D00218A57 /* SNSPostDemos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9AFA8D61CC73C1D00218A57 /* Build configuration list for PBXNativeTarget "SNSPostDemos" */;
+			buildPhases = (
+				C9AFA8B81CC73C1D00218A57 /* Sources */,
+				C9AFA8B91CC73C1D00218A57 /* Frameworks */,
+				C9AFA8BA1CC73C1D00218A57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SNSPostDemos;
+			productName = SNSPostDemos;
+			productReference = C9AFA8BC1CC73C1D00218A57 /* SNSPostDemos.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9AFA8B41CC73C1D00218A57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SPD;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Shingo Hiraya";
+				TargetAttributes = {
+					C9AFA8BB1CC73C1D00218A57 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = C9AFA8B71CC73C1D00218A57 /* Build configuration list for PBXProject "SNSPostDemos" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C9AFA8B31CC73C1D00218A57;
+			productRefGroup = C9AFA8BD1CC73C1D00218A57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9AFA8BB1CC73C1D00218A57 /* SNSPostDemos */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9AFA8BA1CC73C1D00218A57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9AFA8D21CC73C1D00218A57 /* LaunchScreen.storyboard in Resources */,
+				C9AFA8CF1CC73C1D00218A57 /* Assets.xcassets in Resources */,
+				C9AFA8CD1CC73C1D00218A57 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9AFA8B81CC73C1D00218A57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9AFA8DB1CC7702F00218A57 /* SPDRootViewController.m in Sources */,
+				C9AFA8C41CC73C1D00218A57 /* SPDAppDelegate.m in Sources */,
+				C9AFA8DE1CC7825E00218A57 /* SPDTwitterClient.m in Sources */,
+				C9AFA8E11CC7829300218A57 /* SPDFacebookClient.m in Sources */,
+				C9AFA8E41CC8C5D600218A57 /* SPDPostViewController.m in Sources */,
+				C9AFA8C11CC73C1D00218A57 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C9AFA8CB1CC73C1D00218A57 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9AFA8CC1CC73C1D00218A57 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C9AFA8D01CC73C1D00218A57 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9AFA8D11CC73C1D00218A57 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C9AFA8D41CC73C1D00218A57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C9AFA8D51CC73C1D00218A57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9AFA8D71CC73C1D00218A57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SNSPostDemos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SNSPostDemos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C9AFA8D81CC73C1D00218A57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SNSPostDemos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SNSPostDemos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9AFA8B71CC73C1D00218A57 /* Build configuration list for PBXProject "SNSPostDemos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9AFA8D41CC73C1D00218A57 /* Debug */,
+				C9AFA8D51CC73C1D00218A57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9AFA8D61CC73C1D00218A57 /* Build configuration list for PBXNativeTarget "SNSPostDemos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9AFA8D71CC73C1D00218A57 /* Debug */,
+				C9AFA8D81CC73C1D00218A57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9AFA8B41CC73C1D00218A57 /* Project object */;
+}
